@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Herr Von Muellerhoff";
+  src: url("../textfont/HerrVonMuellerhoff-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans Regular";
+  src: url("../textfont/JosefinSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans Light";
+  src: url("../textfont/JosefinSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SourceSansPro Regular";
+  src: url("../textfont/SourceSansPro-Regular.ttf") format("truetype");
+}
+
+:root {
+  --main-font-1: "Josefin Sans Regular", sans-serif;
+  --main-font-2: "Josefin Sans Light", sans-serif;
+  --secondary-font: "SourceSansPro Regular", sans-serif;
+  --main-color: #455d58;
+  --white-pinkish-color: #faf2f7;
+  --white-color: #fff;
+}
+
+body {
+  padding: 0 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  border: none;
+  background-color: white;
+  padding: 40px 2.4em !important;
+  box-shadow: 5px 5px 13px 5px rgba(169, 148, 148, 0.6);
+  -webkit-box-shadow: 5px 5px 13px 5px rgba(169, 148, 148, 0.6);
+  -moz-box-shadow: 5px 5px 13px 5px rgba(169, 148, 148, 0.6);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.body-container {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  margin: 0 auto;
+}
+
+.bed {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 20px;
+  display: block;
+}
+
+.bed p {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+
+p {
+  color: black;
+}
+
+image {
+  width: 50%;
+}
+
+.info .title {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+i {
+  color: grey;
+}
