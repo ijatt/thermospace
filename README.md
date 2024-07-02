@@ -18,4 +18,4 @@ The system able to:<br >
 * Admin can create new account from staff.
 
   # DEMO
-  -- will put soon :P
+  tbd
